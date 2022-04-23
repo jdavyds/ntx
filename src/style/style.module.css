@@ -1,0 +1,66 @@
+.tableCont {
+    color: #8C8888;
+}
+.tableHeader {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px 0;
+    padding: 10px 0 10px 20px;
+}
+.tableHeader div {
+    display: flex;
+    justify-content: flex-start;
+}
+.tableRow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid rgba(8, 98, 160, 1);
+}
+.tableRow div {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+.navigator {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigate {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid rgba(8, 98, 160, 1);
+    color: rgba(8, 98, 160, 1);
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navigate #icons {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.pageNumbers {
+    background: rgba(206, 224,236);
+    display: flex;
+    border-radius: 20px;
+}
+.pageNumbers button {
+    background: inherit;
+    color: rgba(8, 98, 160, 1);
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
